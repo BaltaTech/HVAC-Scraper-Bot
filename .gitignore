@@ -1,0 +1,44 @@
+# Binarios y compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.vs/
+
+# Puppeteer / Chromium
+Chrome/
+ChromeHeadlessShell/
+.chromium/
+
+# Archivos de configuración local
+appsettings.Development.json
+*.secret.json
+
+# Logs
+*.log
+logs/
+
+# Exportaciones (datos generados por el scraper)
+Exportaciones/
+Exportaciones_*/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Resultados de pruebas
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Otros
+Downloads/
+Temp/
